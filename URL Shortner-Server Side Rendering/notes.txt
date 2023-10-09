@@ -1,0 +1,41 @@
+URL Shortener :
+
+-->  In this project we will design a URL shortener service that takes is a valid URL and returns a shortened URL.
+-->  Also, keep track of total visit/clicks on the url.
+
+ROUTES :
+
+POST/URL               --> Generate a new shortened URL.
+
+GET/:id                --> Redirect the user to the original URL.
+
+GET/URL/analytics/:id  --> Returns the clicks for the provided short id.
+
+
+
+Steps:
+
+1. In Terminal -- npm init
+2.             -- npm i express
+3.             -- npm i mongoose
+               -- npm i nanoid
+               -- npm i nodemon
+4. Create index.js file.
+5. Create folder (routes, controllers, models)
+6. 
+
+
+
+Now creating server side rendring :
+
+in this we will create a user friendly interface.
+
+EJS : EJS is a simple templating language that lets you generate HTML markup with plain JavaScript. No religiousness about how to organize things. No reinvention of iteration and control-flow. It's just plain JavaScript.
+
+steps:
+1. In Terminal -- npm i ejs.
+2. 
+
+
+
+--> EJS file are basically html files.
